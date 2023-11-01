@@ -1,5 +1,5 @@
 import random
-from Words import words
+from Words import words  # from 'Words' file add or remove words to your convenience.
 
 
 chosen_word = random.choice(words)
@@ -7,7 +7,7 @@ word_length = len(chosen_word)
 end_of_game = False
 
 display = ["_" for i in range(len(chosen_word))]
-
+# change lives to add number of chances you want.
 lives = 6
 
 from hangman_art import logo, stages
